@@ -11,8 +11,8 @@
  */
 void AllAboutEE::MCP3021::begin(int sda, int scl)
 {
-	Wire.pins(sda,scl);
-	Wire.begin(MCP3021_I2C_ADDRESS);
+//	Wire.pins(sda,scl);
+//	Wire.begin(MCP3021_I2C_ADDRESS);
 }
 
 /**
